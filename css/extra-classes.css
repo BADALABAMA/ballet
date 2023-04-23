@@ -1,0 +1,32 @@
+.upper {
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: var(--margin-xxl);
+  font-size: var(--fs-xl);
+  font-family: var(--ff-kaisei);
+}
+
+.paragraph {
+  font-family: var(--ff-assistant);
+  font-size: var(--fs-s);
+  margin-top: var(--margin-s);
+  color: var(--secondary-text-color);
+}
+
+.sub-title {
+  font-size: calc(var(--fs-m) + 4px);
+  color: var(--primary-text-color);
+  font-family: var(--ff-assistant);
+  margin-top: var(--margin-s);
+}
+
+.special-word {
+  color: transparent;
+}
+
+.direction__image {
+  width: 296px;
+  margin-top: var(--margin-s);
+}
