@@ -4,26 +4,59 @@
 
 .title {
   margin-top: var(--margin-xxl);
-  font-size: var(--fs-xl);
+  font-size: var(--fs-m);
   font-family: var(--ff-kaisei);
 }
 
 .paragraph {
   font-family: var(--ff-assistant);
-  font-size: var(--fs-s);
+  font-size: calc(var(--fs-xs) - 2px);
   margin-top: var(--margin-s);
   color: var(--secondary-text-color);
 }
 
 .sub-title {
-  font-size: calc(var(--fs-m) + 4px);
+  font-size: var(--fs-xs);
   color: var(--primary-text-color);
   font-family: var(--ff-assistant);
   margin-top: var(--margin-s);
 }
 
 .special-word {
-  color: transparent;
+  color: var(--thrid-bg);
+}
+
+.direction__image {
+  width: 296px;
+  margin-top: var(--margin-s);
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.title {
+  margin-top: var(--margin-xxl);
+  font-size: var(--fs-m);
+  font-family: var(--ff-kaisei);
+}
+
+.paragraph {
+  font-family: var(--ff-assistant);
+  font-size: calc(var(--fs-xs) - 2px);
+  margin-top: var(--margin-s);
+  color: var(--secondary-text-color);
+}
+
+.sub-title {
+  font-size: var(--fs-xs);
+  color: var(--primary-text-color);
+  font-family: var(--ff-assistant);
+  margin-top: var(--margin-s);
+}
+
+.special-word {
+  color: var(--thrid-bg);
 }
 
 .direction__image {
